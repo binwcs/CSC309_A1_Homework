@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="portrait-circle">
+        <img src="path/to/your/portrait.jpg" alt="Your Portrait">
+      </div>
+      <h1>Bin Wang</h1>
+      <p>
+        <a href="mailto:binwcs.wang@mail.utoronto.ca">binwcs.wang@mail.utoronto.ca</a>
+      </p>
+      <form action="submit-feedback" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" placeholder="Enter your feedback here" required></textarea>
+        <br>
+        <label for="attachment">Attachment:</label>
+        <input type="file" id="attachment" name="attachment" accept="*">
+        <br>
+        <input type="checkbox" id="consent" name="consent" value="yes" required>
+        <label for="consent" class="larger-checkbox">You agree to receive emails from me</label>
+        <br>
+        <button type="submit">Send Feedback</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright [2023] by [wangbi60].</p>
+    </footer>
+  </body>
+</html>

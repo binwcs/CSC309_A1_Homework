@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #00b8d4;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 6rem;
+  padding: 1rem;
+}
+
+nav a {
+  color: #00b8d4;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+nav .active {
+  color: #b2f5ea;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main {
+  padding: 64px;
+  text-align: center;
+}
+
+.portrait-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1rem;
+}
+
+.portrait-container img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #00b8d4;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #0099b3;
+}
+
+footer {
+  background-color: #00b8d4;
+  color: white;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+form label, form input, form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+form input[type="submit"] {
+  background-color: #00b8d4;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  width: 20%;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+
+
+.portrait-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.portrait-circle img {
+  width: 100%;
+}
+
+form {
+  margin: 0.5rem;
+}
+
+.larger-checkbox {
+  font-size: 1.5em;
+}
+
+.portrait-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.portrait-circle img {
+  width: 100%;
+}
+
+form {
+  margin: 0.5rem;
+}
+
+.larger-checkbox {
+  font-size: 1.5em;
+}
+
+.widget {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.widget-title {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.widget-content {
+  display: none;
+  list-style: none;
+  text-align: center;
+}
+
+.widget-text {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+embed {
+  max-width: 720px;
+  height: 60vh;
+}
